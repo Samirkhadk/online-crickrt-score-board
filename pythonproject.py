@@ -7,7 +7,7 @@ score3=0
 class cricket:
     def __init__(self,root):
         self.root=root
-        self.root.title("online crickrt score board")
+        self.root.title("online cricket score board")
         self.root.geometry('')
         self.root.config(bg="black")
         title=Label(self.root,text="Score Board")
